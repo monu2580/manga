@@ -38,7 +38,7 @@ function App() {
       {books.length>0
       ? <div>
           <ButtonGroup data={books} onChange={onButtonClick} selected_btn={bookId}/>
-          <PaginationComp data={chapter} key={key}/>
+          <PaginationComp data={chapter} key={ key }/>
         </div>
       : <div>Loading...</div>}
     </div>
