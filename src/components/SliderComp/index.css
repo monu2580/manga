@@ -1,0 +1,17 @@
+.slider-div{
+    width: 380px !important;
+    height: 505px !important;
+    margin: auto !important;
+}
+.slider-div .awssld__container{
+    height: 307px !important;
+}
+.slider-div .awssld__content>img{
+    object-fit: contain !important;
+}
+.awssld__container{
+    height: 380px;
+}
+.awssld__content{
+    align-items: inherit !important;
+}

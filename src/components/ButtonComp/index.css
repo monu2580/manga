@@ -1,0 +1,10 @@
+button{
+    padding:5px;
+    border-radius:5px;
+    background-color: azure;
+    border: 0.5px solid gray;
+    cursor:pointer;
+}
+button.active{
+    background-color: #83f083;
+}
